@@ -7,13 +7,13 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>codeway.com</h1>
+        <h1>codeway.local</h1>
     </div>
 
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                     <?php
                     use giovdk21\yii2SyntaxHighlighter\SyntaxHighlighter as SyntaxHighlighter;
                     SyntaxHighlighter::begin(['brushes' => ['php']]);
