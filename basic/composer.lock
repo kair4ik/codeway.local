@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0ae91dd49c8a7d0b85d596e662463df",
+    "content-hash": "28b52625396ff53f1918f000457126c1",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -975,6 +975,47 @@
                 "fixtures"
             ],
             "time": "2016-04-29T12:21:54+00:00"
+        },
+        {
+            "name": "giovdk21/yii2-syntaxhighlighter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovdk21/yii2-syntaxhighlighter.git",
+                "reference": "9407b70cb2f53ca051efc54c30b1b255721b80bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovdk21/yii2-syntaxhighlighter/zipball/9407b70cb2f53ca051efc54c30b1b255721b80bb",
+                "reference": "9407b70cb2f53ca051efc54c30b1b255721b80bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "giovdk21\\yii2SyntaxHighlighter\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni Derks",
+                    "homepage": "http://derks.me.uk/"
+                }
+            ],
+            "description": "Syntax Highlighter for Yii 2",
+            "keywords": [
+                "SyntaxHighlighter",
+                "yii2"
+            ],
+            "time": "2014-11-02T18:53:38+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3283,7 +3324,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "giovdk21/yii2-syntaxhighlighter": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
