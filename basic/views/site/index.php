@@ -4,16 +4,27 @@
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
+<!--<div class="site-index">-->
 
     <div class="jumbotron">
         <h1>codeway.local</h1>
     </div>
 
+    <div class="body-footer">
+        <div class="col-lg-3">
+            d
+        </div>
+        <div class="col-lg-3">
+            f
+        </div>
+        <div class="col-lg-3">
+            g
+        </div>
+    </div>
+<br>
     <div class="body-content">
 
-        <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-3">
                     <?php
                     use giovdk21\yii2SyntaxHighlighter\SyntaxHighlighter as SyntaxHighlighter;
                     SyntaxHighlighter::begin(['brushes' => ['php']]);
@@ -30,7 +41,7 @@ $this->title = 'My Yii Application';
                                 \'attribute\' => \'sub_service_id\',
                                 \'label\' => \'Наименование сервиса\',
                                 \'value\' => function ($model) {
-                                    return SubService::getNameById($model->sub_service_id);
+                                    return $model->id;
                                 },
                             ],
                             \'price_aston\',
@@ -51,7 +62,7 @@ $this->title = 'My Yii Application';
 
             </div>
 
-        </div>
 
-    </div>
-</div>
+
+        </div>
+<!--</div>-->
