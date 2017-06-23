@@ -14,7 +14,7 @@ $this->title = 'My Yii Application';
 
         <div class="row">
             <div class="col-lg-8">
-                <h2>Heading</h2>
+                <h2>Какой то заголовок</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
