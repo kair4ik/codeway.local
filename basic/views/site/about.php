@@ -14,7 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <br>
 <br>
 <br>
-
 <div class="container-fluid">
     <div class="row-fluid">
 
