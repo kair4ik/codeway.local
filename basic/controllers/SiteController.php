@@ -119,12 +119,15 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionAbout()
+    public function actionHtmlhint()
     {
 		$this->layout = 'main2';
-        return $this->render('about');
+        return $this->render('htmlhint');
     }
 
+	/**
+	 * @return string
+	 */
 	public function actionQuestion()
 	{
 		$this->layout = 'main2';

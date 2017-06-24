@@ -42,7 +42,7 @@ AppAsset::register($this);
 		'options' => ['class' => 'navbar-nav navbar-right'],
 		'items' => [
 			['label' => 'PHP', 'url' => ['/site/index']],
-			['label' => 'HTML', 'url' => ['/site/about']],
+			['label' => 'HTML', 'url' => ['/site/htmlhint']],
 			['label' => 'Вопросы', 'url' => ['/site/question']],
 			['label' => 'Contact', 'url' => ['/site/contact']],
 			Yii::$app->user->isGuest ? (
