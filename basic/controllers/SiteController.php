@@ -124,4 +124,10 @@ class SiteController extends Controller
 		$this->layout = 'main2';
         return $this->render('about');
     }
+
+	public function actionQuestion()
+	{
+		$this->layout = 'main2';
+		return $this->render('question');
+	}
 }
