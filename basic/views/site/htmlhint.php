@@ -93,7 +93,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
 
         <div class="col-xs-12">
-            <h1><p>Работа с письмами</p></h1>
+            <h1><p>Работа с письмами ghbghghbg</p></h1>
             <table class="table table-bordered">
                 <thead>
                 <tr>
