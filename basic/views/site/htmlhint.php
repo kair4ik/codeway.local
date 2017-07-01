@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row-fluid">
 
         <div class="col-xs-12">
-            <h1><p>Первая запись</p></h1>
+            <h1><p>Первая запись редактирую из Visual Studio</p></h1>
             <table class="table table-bordered">
                 <thead>
                 <tr>
