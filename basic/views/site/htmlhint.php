@@ -3,9 +3,24 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use Zyberspace\Telegram\Cli\Client;
+
+use Telegram\Bot\Api;
 
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
+
+
+use \unreal4u\TelegramAPI\TgLog;
+use \unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
+
+$sendMessage = new SendMessage();
+$sendMessage->chat_id = '@KazPostBot';
+$sendMessage->text = 'Hello world!';
+
+$tgLog = new TgLog('298419529:AAFdkPMILnYPD5dPBaQCzpLGDE48fxnZ6BU');
+$message = $tgLog->performApiRequest($sendMessage);
+
 ?>
 
 <br>

@@ -24,7 +24,8 @@
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
         "giovdk21/yii2-syntaxhighlighter": "dev-master",
-
+        "irazasyed/telegram-bot-sdk": "dev-master",
+        "unreal4u/telegram-api": "~2.5",
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1",
         "codeception/specify": "~0.4.3"
