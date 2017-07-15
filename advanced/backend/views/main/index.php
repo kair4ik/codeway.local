@@ -13,5 +13,40 @@
 
 
 <?php
-echo $url_image;
+echo $url_image."<br>";
+
+$string = 'cup';
+$name = 'coffee';
+$str = 'This is a $string with my $name in it.<br>';
+echo $str. "\n";
+eval("\$str1 = \"$str\";");
+echo $str1. "\n";
+
+
+function foo() {
+    echo "In foo()<br />\n";
+}
+
+$func = 'foo';
+$func();        // Вызывает функцию foo()
+
+
+
+class Foo
+{
+    function Variable()
+    {
+        $name = 'Bar';
+        $this->$name(); // Вызываем метод Bar()
+    }
+
+    function Bar()
+    {
+        echo "This is Bar";
+    }
+}
+
+$foo = new Foo();
+$funcname = "Variable";
+$foo->$funcname();  // Обращаемся к $foo->Variable()
 ?>
